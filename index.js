@@ -5,4 +5,4 @@ main()
 
 const sum => (a, b) => a + b;
 const three = sum(1, sum(1, 1));
-console.log({ three });
+console.log(three + 1);
