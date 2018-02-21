@@ -4,4 +4,5 @@ const main = () => {
 main()
 
 const sum => (a, b) => a + b;
-console.log('1 +1, ' sum(1, 1));
+const three = sum(1, sum(1, 1));
+console.log({ three });
